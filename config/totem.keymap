@@ -63,7 +63,7 @@
             bindings = <
                 &kp F1          &kp F2          &kp F3      &kp F4              &kp F5                                      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
                 &kp TAB         &kp HOME        &kp UP      &kp END             &kp PG_UP                                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN   &kp DEL
-                &kp LSHIFT  &kp LCTRL       &kp LALT       &kp ESC      &kp ENTER                                   &kp LGUI     &kp INSERT   &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE
+                &kp LSHIFT  &kp LCTRL       &kp LALT       &kp ESC      &kp ENTER                                   &kp LGUI     &kp INSERT   &kp PRINTSCREEN  &kp SCROLLLOCK  &kp C_PP
                                         &kp LEFT_ALT        &kp LEFT_CONTROL   &mo ADDITIONAL       &kp SPACE   &lt FUNCTION DEL     &mo ADDITIONAL
             >;
         };
