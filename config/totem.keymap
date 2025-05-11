@@ -41,8 +41,8 @@
             bindings = <
                 &kp Q           &kp W           &kp E       &kp R               &kp T                                       &kp Z       &kp U       &kp I       &kp O       &kp P
                 &kp A           &kp S           &kp D       &kp F               &kp G                                       &kp H       &kp J       &kp K       &kp L       &kp MINUS
-    &kp LSHIFT  &kp LESS_THAN   &kp Y           &kp X       &kp C               &kp V                                       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp BSLH
-                                        &kp LEFT_ALT &kp LEFT_CONTROL &lt FUNCTION ESC   &kp SPACE   &lt FUNCTION DEL     &mo ADDITIONAL
+    &kp LSHIFT  &kp LESS_THAN   &kp Y           &kp X       &kp C               &kp V                                       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp ENTER
+                                        &kp LEFT_ALT &kp LEFT_CONTROL &lt FUNCTION ESC   &kp SPACE   &lt FUNCTION BSPC     &mo ADDITIONAL
             >;
         };
 
@@ -52,7 +52,7 @@
             bindings = <
                 &kp N1          &kp N2          &kp N3      &kp N4              &kp N5                                      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
                 &kp CARET       &none           &none       &none               &none                                      &none       &kp UP      &none       &kp STAR    &kp HASH
-    &kp LSHIFT  &kp PIPE        &none           &none       &none               &none                                      &kp LEFT    &kp DOWN    &kp RIGHT   &none       &kp MINUS     &kp BSLH
+    &kp LSHIFT  &kp PIPE        &none           &none       &none               &none                                      &kp LEFT    &kp DOWN    &kp RIGHT   &none       &kp MINUS     &kp ENTER
                                         &kp PLUS            &kp ESC         &mo ADDITIONAL       &kp SPACE   &lt FUNCTION DEL     &mo ADDITIONAL
             >;
         };
@@ -63,7 +63,7 @@
             bindings = <
                 &kp F1          &kp F2          &kp F3      &kp F4              &kp F5                                      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
                 &kp TAB         &kp HOME        &kp UP      &kp END             &kp PG_UP                                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN   &kp DEL
-    &kp LSHIFT  &kp LCTRL       &kp LALT       &kp ESC      &kp ENTER                                   &kp LGUI     &kp INSERT   &kp PRINT_SCREEN  &kp SCROLL_LOCK  &kp PAUSE
+                &kp LSHIFT  &kp LCTRL       &kp LALT       &kp ESC      &kp ENTER                                   &kp LGUI     &kp INSERT   &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE
                                         &kp LEFT_ALT        &kp LEFT_CONTROL   &mo ADDITIONAL       &kp SPACE   &lt FUNCTION DEL     &mo ADDITIONAL
             >;
         };
